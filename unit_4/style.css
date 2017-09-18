@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Lora');
+
+
+body {
+	color: #FFF;
+	background: url(images/headshot.jpg);
+	background-size: cover;
+	font-family:"Arial";
+}
+
+h2{
+	font-family: 'Roboto', sans-serif;
+
+}
+
+p{
+	font-family: 'Lora', serif;
+}
+
+a{
+	color:white;
+}
+
+#slogan{
+	color:blue;
+}
