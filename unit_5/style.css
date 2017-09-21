@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Lora');
+
+header{
+	background-color:#FFED74;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+body {
+	color: #FFF;
+	font-family:"Arial";
+}
+
+nav{
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 20px;
+
+}
+
+article{
+	background-color: #E89C6C;
+	border: 1px black solid;
+	padding: 20px;
+
+}
+
+hr{
+	display: inline;
+}
+
+h2{
+	font-family: 'Roboto', sans-serif;
+
+}
+
+p{
+	font-family: 'Lora', serif;
+}
+
+a{
+	color:white;
+}
+
+#slogan{
+	color:blue;
+}
