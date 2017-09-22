@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Lora');
+
+header{
+	background-color:#FFF;
+
+}
+
+img{
+	width:100%;
+}
+
+body {
+	font-family:"Arial";
+}
+
+nav{
+	background-color: #FFF;
+
+
+
+}
+
+nav a{
+	color:black;
+	text-decoration: none;
+	text-align: center;
+	line-height: 3em;
+	border: 2px purple solid;
+	display:block;
+
+
+}
+
+nav a:hover{
+	color:purple;
+}
+
+
+
+article{
+	background-color: #FFF;
+
+
+
+}
+
+
+
+h2{
+	font-family: 'Roboto', sans-serif;
+	color: purple;
+	text-align: center;
+	border-bottom: 10px purple solid;
+	line-height:3em;
+
+
+}
+
+h3{
+	color:purple;
+}
+
+
+p{
+	font-family: 'Lora', serif;
+	color:black;
+}
+
+a{
+	color:black;
+}
+
+#slogan{
+	color:black;
+	text-align:center;
+}
+
+#two_column {
+    background-color: #000;
+
+
+}
+
+#left {
+    background-color: #FFF;
+
+ 
+    float: left;
+    width: 49%;
+}
+
+#right {
+    background-color: #FFF;
+
+
+    float:right;
+    width:49%;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+@media only screen and (max-width:600px)
+	{
+		#left, #right {
+			width: auto;
+
+		}
+	}
